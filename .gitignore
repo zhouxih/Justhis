@@ -1,0 +1,36 @@
+# 忽略编译生成的目录
+bin/
+obj/
+ 
+# 忽略NuGet下载的包
+packages/
+ 
+# 忽略VS临时文件和用户设置
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+ 
+# 忽略项目文件中用户特定的内容
+*.csproj.user
+*.vbproj.user
+ 
+# 忽略所有的日志文件
+*.log
+ 
+# 忽略ReSharper和其他IDE生成的文件
+_ReSharper*/
+*.ReSharper
+*.DotSettings
+ 
+# 忽略VS Code设置
+.vscode/
+ 
+# 忽略ASP.NET Core 的环境变量文件
+ASP.NET Core Web项目的.env
+ 
+# 忽略ASP.NET Core 的开发IIS配置文件
+.vs/
+ 
+# 忽略SQLite数据库文件（如果项目使用）
+*.db
