@@ -15,6 +15,7 @@ namespace Justhis.Controllers
             this.userAppService = userAppService;
         }
 
+        [HttpGet]
         public async Task<IEnumerable<User>> GetAllUsers() 
         {
             var users =  await userAppService.GetAll();
